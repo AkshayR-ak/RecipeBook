@@ -1,0 +1,70 @@
+.sidebar {
+    transform: translateX(-100%);
+    width: 75%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    background-color: #f8fafc;
+    overflow-y: auto;
+    padding: 24px;
+    z-index: 50;
+    background: url('../img/SideBarBackground.jpg') center/cover no-repeat;
+}
+
+.sidebar.show {
+    transform: translateX(0);
+}
+
+.toggle-button {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a5568;
+}
+
+.search-forms {
+    margin-bottom: 24px;
+}
+
+.search-inputs {
+    position: relative;
+}
+
+.inputs {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ffffff;
+    color: #1a202c;
+}
+
+.search-icons {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #4a5568;
+}
